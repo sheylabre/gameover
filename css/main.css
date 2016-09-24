@@ -1,0 +1,84 @@
+body {
+	background-image: url(../img/fondo2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+
+}
+
+
+/*-------------------CSS del Logo GAME OVER ---------------------------*/
+.demo-wrapper {
+	width:90%;
+	margin:-4% 0% -15% 6%;
+}
+.demo-wrapper .title {
+	font-size: 120px;
+	font-family: "Montserrat";
+	letter-spacing: -25px;
+}
+
+.demo-wrapper section h3 {
+	color: #555;
+	padding: 10px;
+	margin-bottom: 80px;
+	background-color: #fff;
+	border-radius: 3px;
+	border: 5px solid #ccc;
+}
+.demo-wrapper .without-blending-mode span {
+	 opacity: 0.8;
+  
+}
+.demo-wrapper .with-blending-mode span {
+	 mix-blend-mode: multiply;
+}
+.demo-wrapper span:first-child {
+	color: #4285f4;	
+	z-index: 100;
+}
+.demo-wrapper span:nth-child(2) {
+	color: #db4437;
+}
+.demo-wrapper span:nth-child(3) {
+	color: #f4b400;
+}
+.demo-wrapper span:nth-child(4) {
+	color: #4285f4;
+}
+.demo-wrapper span:nth-child(5) {
+	color: #0f9d58;	
+}
+.demo-wrapper span:nth-child(6) {
+	color: #db4437;
+}
+.demo-wrapper span:nth-child(7) {
+	color: #4285f4;
+}
+.demo-wrapper span:nth-child(8) {
+	color:  #f4b400;
+}
+/*-------------------CSS del Logo GAME OVER ---------------------------*/
+.enlace{
+	text-decoration: none;
+	color: #c2185b;
+	font:small-caps 100% cursive;
+}
+.enlace:hover{
+	color: #1b5e20;
+}
+
+.foto {
+	height: 250px;
+	width: 250px;
+	background-color: orange;
+	opacity: 1;
+	margin-bottom: 30px;
+	border-radius: 100%;
+
+}
+.contenedor {
+	display: inline-block;
+	margin-top: 150px;
+    margin-left: 90px;
+}
