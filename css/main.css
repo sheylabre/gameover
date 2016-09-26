@@ -66,6 +66,7 @@ body {
 }
 .enlace:hover{
 	color: #1b5e20;
+
 }
 
 .foto {
@@ -81,4 +82,14 @@ body {
 	display: inline-block;
 	margin-top: 150px;
     margin-left: 90px;
+}
+
+.trello{
+	padding-top: 43%;
+	
+}
+
+.trello:hover{
+	
+	display: none;
 }

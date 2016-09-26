@@ -20,6 +20,7 @@ window.addEventListener("load",function(){
 			box.style.backgroundSize="cover";
 			box.style.backgroundRepeat= "no-repeat"
 			box.style.backgroundPositionX = "-30px";
+			
 		} else if(box.dataset.numero == 1){
 			box.style.backgroundImage="url(img/lizandsheyla.jpg)";
 			box.style.backgroundSize="cover";
